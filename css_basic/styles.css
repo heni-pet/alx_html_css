@@ -1,0 +1,83 @@
+/* === Layout and Background === */
+body {
+  background-color: #f0f2f5;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === Headings === */
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #34495e;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* === Links === */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
+/* === Paragraphs === */
+p {
+  margin-bottom: 16px;
+  font-size: 1.05em;
+}
+
+/* === Lists === */
+ul, ol {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* === Images === */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* === Tweet box styling (if used) === */
+.tweet {
+  background-color: #ffffff;
+  border: 1px solid #dfe3e8;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* === Footer or small text === */
+small {
+  color: #999;
+  font-size: 0.9em;
+}

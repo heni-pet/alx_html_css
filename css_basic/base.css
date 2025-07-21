@@ -1,0 +1,67 @@
+/* General page layout */
+body {
+  background-color: #f9f9f9;
+  max-width: 900px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #555;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Footer or small text */
+small {
+  color: #777;
+}
+
