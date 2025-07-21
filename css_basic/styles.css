@@ -37,3 +37,13 @@ header, footer {
   padding: 20px;
   text-align: center;
 }
+.works_on_smartphone main {
+  display: flex;
+  flex-direction: column;
+}
+
+.works_on_smartphone article,
+.works_on_smartphone aside {
+  flex: auto;
+  width: 100%;
+}

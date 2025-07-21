@@ -64,4 +64,13 @@ img {
 small {
   color: #777;
 }
+.works_on_smartphone main {
+  display: flex;
+  flex-direction: column;
+}
 
+.works_on_smartphone article,
+.works_on_smartphone aside {
+  flex: auto;
+  width: 100%;
+}
