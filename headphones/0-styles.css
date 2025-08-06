@@ -15,7 +15,7 @@
 /* Global Styles */
 body {
   font-family: var(--font-family);
-  background-color:
+  background-color: #000;
   color: #fff;
   line-height: 1.6;
 }
